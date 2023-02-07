@@ -22,10 +22,32 @@
     color: #5A6B78;
 }
 
+.borde-white{
+    border-color: #EBFFFC;
+}
+.borde-blue{
+    border-color: #11417E;
+}
+.borde-gray{
+    border-color: #5A6B78;
+}
+
+.texto-normal{
+    font-size: calc(6px + 1.5vmin);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.texto-titulo{
+    font-size: calc(12px + 1.5vmin);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.texto-subtitulo{
+    font-size: calc(10px + 1.5vmin);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 .App{
     background-color: #EBFFFC;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-size: calc(10px + 1.5vmin);
 }
