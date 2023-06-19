@@ -24,12 +24,12 @@ function Home() {
                     ranging from simple static pages to the most state-of-the-art Apps. 
                     We're passionate about our work and trying out new things everyday, 
                     firmly bilinguals in both English and Spanish 
-                    and fielding full fledged modern design and marketing strategies.
+                    and fielding fully fledged modern design and marketing strategies.
                 </p>
                 <br></br>
                 <p className='self-center mt-3 fondo-gray p-1 rounded-md w-2/3 text-center'>
                     If you're starting a new business, 
-                    branching out to new industries, 
+                    branching out to new sectors, 
                     modernizing your brand or 
                     simply want a little piece of the internet to build your dreams on? 
                     We would be more than happy to work with you together on achieving it.
