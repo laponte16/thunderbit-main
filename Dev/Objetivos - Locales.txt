@@ -1,4 +1,16 @@
--(VITAL)Besar Mari's(x1000)
+-(VITAL)Besar Mari's(x82173182973649813)
 -(VITAL)Mimar Mari's(x1000)
 -(VITAL)Abrazar Mari's(x1000)
 -(VITAL)Otros(x82173182973649812)
+
+--------------------------------------------------------------------------
+
+-Rework The Bito
+-Rework The House of Bito
+-Cambio de colores?
+-Cambiar los iconos por sus React-icons equivalents
+-Arreglar horrores ortograficos
+-Cambiar diseño a algo mas calidad, brah. Prueba cosas
+-Cambiar cosas debajo del capot al nuevo estandar mimoso
+
+--------------------------------------------------------------------------
