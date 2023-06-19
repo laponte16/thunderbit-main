@@ -15,11 +15,11 @@ function Home() {
                 </div>
             </div>
             <div className='w-full flex flex-col mt-8 rounded pt-1 pb-8 pl-4 texto-white'>
-                <p className='self-center texto-subtitulo texto-gray p-1 rounded-md w-2/3 text-center'><b>Who We Are</b></p>
+                <p className='self-center texto-subtitulo texto-blue p-1 rounded-md w-2/3 text-center'><b>Who We Are</b></p>
                 
                 
 
-                <p className='self-center mt-3 fondo-gray p-2 rounded-md w-2/3 text-center'>
+                <p className='self-center mt-3 fondo-blue p-2 rounded-md w-2/3 text-center'>
                     Thunderbit Code is an independent group of Computer Engineers 
                     specialized in Web Development, offering services 
                     ranging from simple static pages to the most state-of-the-art Apps. 
@@ -27,7 +27,7 @@ function Home() {
                     firmly bilinguals in both English and Spanish 
                     and fielding fully fledged modern design and marketing strategies.
                 </p>
-                <div className='flex flex-row justify-evenly texto-gray my-4 w-full sm:w-2/3 self-center text-center'>
+                <div className='flex flex-row justify-evenly texto-blue my-4 w-full sm:w-2/3 self-center text-center'>
                     <div className='flex flex-col w-1/3 items-center'>
                         <p><i><b>Design</b> </i></p>
                         <span className='texto-icon mt-2'><ImPencil2/></span>
@@ -41,7 +41,7 @@ function Home() {
                         <span className='texto-icon mt-2'><ImMobile/></span>
                     </div>
                 </div>
-                <div className='flex flex-row justify-evenly texto-gray my-4 w-full sm:w-2/3 self-center text-center'>
+                <div className='flex flex-row justify-evenly texto-blue my-4 w-full sm:w-2/3 self-center text-center'>
                 <div className='flex flex-col w-1/2 items-center'>
                         <p><i><b>User Sessions</b> </i></p>
                         <span className='texto-icon mt-2'><ImUser/></span>
@@ -51,7 +51,7 @@ function Home() {
                         <span className='texto-icon mt-2 pl-2'><ImLock/></span>
                     </div>
                 </div>
-                <p className='self-center mt-3 fondo-gray p-2 rounded-md w-2/3 text-center'>
+                <p className='self-center mt-3 fondo-blue p-2 rounded-md w-2/3 text-center'>
                     If you're starting a new business, 
                     branching out to new sectors, 
                     modernizing your brand or 

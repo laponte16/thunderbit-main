@@ -4,7 +4,7 @@
 
 /*APP - PANTALLA PRINCIPAL*/
 .App{
-    background-color: #EBFFFC;
+    background-color: #F3F3F7;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,13 +12,13 @@
 
 /*TEXTO - COLOR*/
 .texto-white{
-    color: #EBFFFC;
+    color: #F3F3F7;
 }
 .texto-blue{
-    color: #11417E;
+    color: #6666E1;
 }
-.texto-gray{
-    color: #5A6B78;
+.texto-orange{
+    color: #D68A71;
 }
 
 /*TEXTO - TAMAÑO*/
@@ -41,35 +41,45 @@
 
 /*FONDOS*/
 .fondo-white{
-    background-color: #EBFFFC;
+    background-color: #F3F3F7;
 }
 .fondo-blue{
-    background-color: #11417E;
+    background-color: #6666E1;
 }
-.fondo-gray{
-    background-color: #5A6B78;
+.fondo-orange{
+    background-color: #D68A71;
 }
 
 /*BORDES*/
 .borde-white{
-    border-color: #EBFFFC;
+    border-color: #F3F3F7;
 }
 .borde-blue{
-    border-color: #11417E;
+    border-color: #6666E1;
 }
-.borde-gray{
-    border-color: #5A6B78;
+.borde-orange{
+    border-color: #D68A71;
 }
 
 /*HOVERS*/
 .hover-blue:hover{
-    background-color: #5A6B78;
-    color: #EBFFFC;
+    background-color: #D68A71;
+    color: #F3F3F7;
     transition: 200ms ease-in-out;
 
 }
 .hover-blue:not(:hover){
-background-color: #11417E;
-color: #EBFFFC;
+background-color: #6666E1;
+color: #F3F3F7;
 transition: 200ms ease-in-out;
+}
+
+.hover-text-blue:hover{
+    color: #D68A71;
+    transition: 200ms ease-in-out;
+
+}
+.hover-text-blue:not(:hover){
+    color: #F3F3F7;
+    transition: 200ms ease-in-out;
 }
