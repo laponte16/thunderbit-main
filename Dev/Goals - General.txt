@@ -1,0 +1,71 @@
+LO MAS IMPORTANTE
+    -(MUY VITAL)Besar Mari's(x1000)
+    -(VITAL)Mimar Mari's(x1000)
+    -(VITAL)Abrazar Mari's(x1000)
+    -(VITAL)Otros(x1^10000)
+
+----------------------------------------------------------------------------
+
+TRABAJO PROPIO
+    -Pagina de Thunderbito
+
+----------------------------------------------------------------------------
+
+TRABAJO A OTROS
+    -Aplicacion para la señora
+
+----------------------------------------------------------------------------
+
+LEARNING
+    -Figma(Se usara para mostrar diseño general de la pagina: 1 ejemplo bien hecho)
+    -Sliders
+    -Animaciones(Framer motion...)
+    -Menus(Actual ones, no otra vista)
+    -Mas Material UI
+    -Trabajar un poco mas el sistema de sesiones. Que tenga un comportamiento por defecto para cuando
+    sales y entras de nuevo mientras la sesion no fue cerrada.
+    -Diseñar un sistema de multipaginas para React(Ya lo hicimos en book-lovers)
+
+----------------------------------------------------------------------------
+
+PREPARACIONES
+    -Un paquete mas estandarizado a presentar
+    a nuevos clientes(muestras, protocolo, poner mas bonito el powerpoint de presupuesto)
+    -Rework a thunderbito y el logo?
+
+----------------------------------------------------------------------------
+
+FIVERR
+    -Poner operativo otra vez
+    -Actualizar con nuevas tecnologias, borrar viejas
+    -Agregar o quitar gigs segun lo que hemos aprendido
+    -Poner un fucking gig de diseño de pagina y pensar si poner uno para montar en hosting
+    -Agregar todo el marketing que podamos
+    -Redactar mas pepon
+    -Videos, imagenes, PDF de muestras. Todo lo que venga a mente
+
+----------------------------------------------------------------------------
+
+UPWORK
+    -Estudiar mas el panorama
+    -Agregar nuevas tecnologias, quitar las obsoletas o molestas
+    -Pulir y llenar el perfil
+    -Agregar marketing
+
+----------------------------------------------------------------------------
+
+MARKETING
+    -Preparar muestras
+    -Hacer un catalogo bonito(Bello como Marilu)
+    -Plantearnos avenidas de marketing(Instagram, google sites, mas twitter, [Redacted], youtube)
+
+----------------------------------------------------------------------------
+
+CLIENT HUNT
+    -Esperar por todas las demas preparaciones
+
+----------------------------------------------------------------------------
+
+OTROS
+
+----------------------------------------------------------------------------
