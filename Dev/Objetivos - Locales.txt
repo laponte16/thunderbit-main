@@ -19,6 +19,12 @@ FontAwesome
     -home
     -briefcase
     -certificate
-    -
+    -regenvelope
+
+IcoMoon
+    -home2 
+    -envelope
+    -briefcase 
+    -power
 
 --------------------------------------------------------------------------
