@@ -1,4 +1,4 @@
 -(VITAL)Besar Mari's(x1000)
 -(VITAL)Mimar Mari's(x1000)
 -(VITAL)Abrazar Mari's(x1000)
--(VITAL)Otros(x1^10000)
+-(VITAL)Otros(x82173182973649812)
