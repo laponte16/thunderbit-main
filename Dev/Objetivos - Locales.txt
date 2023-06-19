@@ -14,3 +14,11 @@
 -Cambiar cosas debajo del capot al nuevo estandar mimoso
 
 --------------------------------------------------------------------------
+
+FontAwesome
+    -home
+    -briefcase
+    -certificate
+    -
+
+--------------------------------------------------------------------------
