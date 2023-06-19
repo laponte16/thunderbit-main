@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/*APP - PANTALLA PRINCIPAL*/
+.App{
+    background-color: #EBFFFC;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/*FONDOS*/
 .fondo-white{
     background-color: #EBFFFC;
 }
@@ -11,7 +19,7 @@
 .fondo-gray{
     background-color: #5A6B78;
 }
-
+/*TEXTO - COLOR*/
 .texto-white{
     color: #EBFFFC;
 }
@@ -21,17 +29,7 @@
 .texto-gray{
     color: #5A6B78;
 }
-
-.borde-white{
-    border-color: #EBFFFC;
-}
-.borde-blue{
-    border-color: #11417E;
-}
-.borde-gray{
-    border-color: #5A6B78;
-}
-
+/*TEXTO - TAMAÑO*/
 .texto-normal{
     font-size: calc(6px + 1.5vmin);
     font-family: 'Roboto Condensed', sans-serif;
@@ -44,10 +42,26 @@
     font-size: calc(10px + 1.5vmin);
     font-family: 'Roboto Condensed', sans-serif;
 }
+/*BORDES*/
+.borde-white{
+    border-color: #EBFFFC;
+}
+.borde-blue{
+    border-color: #11417E;
+}
+.borde-gray{
+    border-color: #5A6B78;
+}
 
-.App{
-    background-color: #EBFFFC;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+/*HOVERS*/
+.hover-blue:hover{
+    background-color: #5A6B78;
+    color: #EBFFFC;
+    transition: 200ms ease-in-out;
+
+}
+.hover-blue:not(:hover){
+background-color: #11417E;
+color: #EBFFFC;
+transition: 200ms ease-in-out;
 }

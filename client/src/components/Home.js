@@ -9,9 +9,8 @@ function Home() {
                 <div></div>
                 <div className='flex flex-col justify-end items-end borde-blue border-4 pt-3 pb-1 pl-28 pr-3 mr-2 text-end rounded'>
                     <p className='texto-titulo mb-2'><b>Computer Engineers</b></p>
-                    <p className='texto-subtitulo'><b>Profesional Web</b></p>
-                    <p className='texto-subtitulo'><b>Developers</b></p>
-                    <Link to='/' className="texto-subtitulo fondo-blue w-fit p-1 rounded texto-white"><b>Our Offers</b></Link>
+                    <p className='texto-subtitulo pb-1'><b>Profesional Web Developers</b></p>
+                    <Link to='/services' className="texto-subtitulo fondo-blue w-fit py-1 px-2 rounded texto-white hover-blue"><b>Our Offers</b></Link>
                 </div>
             </div>
             <div className='w-full flex flex-col mt-8 rounded pt-1 pb-8 pl-4 texto-white'>
