@@ -16,7 +16,26 @@ function Home() {
             <div className='w-full flex flex-col mt-8 rounded pt-1 pb-8 pl-4 texto-white'>
                 <p className='self-center texto-subtitulo fondo-gray p-1 rounded-md w-2/3 text-center'><b>Who We Are</b></p>
                 
-                <br></br>
+                <div className='flex flex-row justify-evenly texto-gray my-4 w-2/3 self-center text-center'>
+                    <div className='w-1/3'>
+                        <p>Design</p>
+                    </div>
+                    <div className='w-1/3'>
+                        <p>Performance</p>
+                    </div>
+                    <div className='w-1/3'>
+                        <p>Multiplatform</p>
+                    </div>
+                </div>
+                <div className='flex flex-row justify-evenly texto-gray my-4 w-2/3 self-center text-center'>
+                    <div className='w-1/2'>
+                        <p>User Sessions</p>
+                    </div>
+                    <div className='w-1/2'>
+                        <p>Secure</p>
+                    </div>
+                </div>
+
                 <p className='self-center mt-3 fondo-gray p-1 rounded-md w-2/3 text-center'>
                     Thunderbit Code is an independent group of Computer Engineers 
                     specialized in Web Development, offering services 
@@ -25,7 +44,7 @@ function Home() {
                     firmly bilinguals in both English and Spanish 
                     and fielding fully fledged modern design and marketing strategies.
                 </p>
-                <br></br>
+
                 <p className='self-center mt-3 fondo-gray p-1 rounded-md w-2/3 text-center'>
                     If you're starting a new business, 
                     branching out to new sectors, 
