@@ -15,10 +15,10 @@
     color: #F3F3F7;
 }
 .texto-blue{
-    color: #6666E1;
+    color: #7777E4;
 }
-.texto-orange{
-    color: #D68A71;
+.texto-dark{
+    color: #11417E;
 }
 
 /*TEXTO - TAMAÑO*/
@@ -44,10 +44,10 @@
     background-color: #F3F3F7;
 }
 .fondo-blue{
-    background-color: #6666E1;
+    background-color: #7777E4;
 }
-.fondo-orange{
-    background-color: #D68A71;
+.fondo-dark{
+    background-color: #11417E;
 }
 
 /*BORDES*/
@@ -55,27 +55,27 @@
     border-color: #F3F3F7;
 }
 .borde-blue{
-    border-color: #6666E1;
+    border-color: #7777E4;
 }
-.borde-orange{
-    border-color: #D68A71;
+.borde-dark{
+    border-color: #11417E;
 }
 
 /*HOVERS*/
 .hover-blue:hover{
-    background-color: #D68A71;
+    background-color: #11417E;
     color: #F3F3F7;
     transition: 200ms ease-in-out;
 
 }
 .hover-blue:not(:hover){
-background-color: #6666E1;
+background-color: #7777E4;
 color: #F3F3F7;
 transition: 200ms ease-in-out;
 }
 
 .hover-text-blue:hover{
-    color: #D68A71;
+    color: #11417E;
     transition: 200ms ease-in-out;
 
 }
@@ -83,3 +83,9 @@ transition: 200ms ease-in-out;
     color: #F3F3F7;
     transition: 200ms ease-in-out;
 }
+
+/*TRANSPARENCIA*/
+
+.fondo-blue2{
+    background-color: rgb(119, 119, 228, 0.3);
+  }

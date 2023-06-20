@@ -3,8 +3,9 @@ import {Link} from 'react-router-dom';
 
 function Footer() {
     return(
-        <footer className='fondo-gray'>
+        <footer className='fondo-blue'>
             Footer
+            <div className='self-end'>Redes sociales</div>
         </footer>
     );
 }
