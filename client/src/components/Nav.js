@@ -15,13 +15,13 @@ function Nav() {
                         <Tooltip title="Home">
                             <Link to='/' className="w-fit h-fit "><span className=' texto-icon hover-text-blue'><ImHome2/></span></Link>
                         </Tooltip>
-                        <Tooltip>
+                        <Tooltip title="Portfolio">
                             <Link to='/portfolio' className="w-fit h-fit"><span className="texto-icon hover-text-blue"><ImBriefcase/></span></Link>
                         </Tooltip>
-                        <Tooltip>
+                        <Tooltip title="Services">
                             <Link to='/services' className="w-fit h-fit"><span className=" texto-icon hover-text-blue"><ImPower/></span></Link>
                         </Tooltip>
-                        <Tooltip>
+                        <Tooltip title="Contact Us">
                             <Link to='/contact' className="w-fit h-fit"><span className=" texto-icon hover-text-blue"><ImEnvelop/></span></Link>
                         </Tooltip>
                     </div>
