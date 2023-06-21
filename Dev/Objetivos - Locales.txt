@@ -1,16 +1,37 @@
--(VITAL)Besar Mari's(x82173182973649813)
--(VITAL)Mimar Mari's(x1000)
--(VITAL)Abrazar Mari's(x1000)
+-(VITAL)Besar Mari's(x82173182973649814)
+-(VITAL)Mimar Mari's(x1001)
+-(VITAL)Abrazar Mari's(x1001)
 -(VITAL)Otros(x8217318297364981289273812937281973827398127839721839)
 
 --------------------------------------------------------------------------
 
 -Rework The Bito
 -Rework The House of Bito
--Cambio de colores? - el naranja
--Arreglar horrores ortograficos
+-(LISTO)Cambio de colores? - el naranja
+-(LISTO)Arreglar horrores ortograficos
 -Cambiar diseño a algo mas calidad, brah. Prueba cosas
--Cambiar cosas debajo del capot al nuevo estandar mimoso
+-(LISTO?)Cambiar cosas debajo del capot al nuevo estandar mimoso
+-Traer al buen Material UI para los tooltipviris
 
 --------------------------------------------------------------------------
 
+HOME
+-Imagenes galore
+-Que poner al lado de la tarjetita
+-Que poner en lugar de la thunderbit Procession abajo
+-Pata
+
+--------------------------------------------------------------------------
+
+PORTFOLIO
+-Un display de todos nuestros trabajos, en fancy fashion
+
+--------------------------------------------------------------------------
+
+SERVICES
+-El apartado de cosas por las que queremos que nos llamen
+
+--------------------------------------------------------------------------
+
+CONTACT US
+-Nuestros puntos de contacto o para negocio

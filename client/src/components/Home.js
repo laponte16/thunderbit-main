@@ -7,6 +7,9 @@ function Home() {
     return(
         <div className='fondo-white py-2 px-8'>
             <div className='flex flex-row justify-center md:justify-end w-full'>
+                <div className='w-full p-2 fondo-blue text-center'>
+                    IMAGEN TIKI TIKI
+                </div>
                 <div className='flex flex-col justify-end items-center w-2/3 md:w-1/4 fondo-blue2 py-3 px-8 text-center rounded'>
                     <p className='texto-titulo mb-2'><b>Computer Engineers</b></p>
                     <p className='texto-subtitulo pb-1'><b>Profesional Web Developers</b></p>
