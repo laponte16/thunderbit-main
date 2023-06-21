@@ -1,5 +1,6 @@
 import React from 'react'; // ES6 js
 import {Link} from 'react-router-dom';
+import Tooltip from '@mui/material/Tooltip';
 import logo from './images/logo.png';
 import { ImHome2, ImEnvelop, ImBriefcase, ImPower } from "react-icons/im";
 
@@ -11,10 +12,18 @@ function Nav() {
                 <div className='flex flex-row'>
                     <img src={logo} className='w-1/5 p-2'></img>
                     <div className='flex flex-row w-full justify-around texto-white self-center'>
-                        <Link to='/' className="w-fit h-fit "><span className=' texto-icon hover-text-blue'><ImHome2/></span></Link>
-                        <Link to='/portfolio' className="w-fit h-fit"><span className="texto-icon hover-text-blue"><ImBriefcase/></span></Link>
-                        <Link to='/services' className="w-fit h-fit"><span className=" texto-icon hover-text-blue"><ImPower/></span></Link>
-                        <Link to='/contact' className="w-fit h-fit"><span className=" texto-icon hover-text-blue"><ImEnvelop/></span></Link>
+                        <Tooltip title="Home">
+                            <Link to='/' className="w-fit h-fit "><span className=' texto-icon hover-text-blue'><ImHome2/></span></Link>
+                        </Tooltip>
+                        <Tooltip>
+                            <Link to='/portfolio' className="w-fit h-fit"><span className="texto-icon hover-text-blue"><ImBriefcase/></span></Link>
+                        </Tooltip>
+                        <Tooltip>
+                            <Link to='/services' className="w-fit h-fit"><span className=" texto-icon hover-text-blue"><ImPower/></span></Link>
+                        </Tooltip>
+                        <Tooltip>
+                            <Link to='/contact' className="w-fit h-fit"><span className=" texto-icon hover-text-blue"><ImEnvelop/></span></Link>
+                        </Tooltip>
                     </div>
                 </div>
             </div>
