@@ -1,4 +1,6 @@
 import React from 'react';
+import logo from '../images/logo.png';
+import {FaCircle} from "react-icons/fa";
 
 function BookLovers() {
 
@@ -11,11 +13,40 @@ function BookLovers() {
                 <div className='self-center'>
                     Aqui una Introduccion
                 </div>
-                <div className='self-center'>
-                    Aqui Imagenes
+                <div className='flex flex-col md:flex-row self-center mt-4'>
+                    <img className='w-full md:w-1/3' src={logo} alt="" />
+                    <img className='w-full md:w-1/3' src={logo} alt="" />
+                    <img className='w-full md:w-1/3' src={logo} alt="" />
                 </div>
-                <div className='self-center'>
-                    Aqui las funciones o puntos resaltantes, a nivel tecnico
+                <div className='flex flex-col self-center'>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-blue'><FaCircle/></span>
+                        JQuery for Client-side Scripting
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-blue'><FaCircle/></span>
+                        TailwindCSS for Crisp and Easy Styling
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-blue'><FaCircle/></span>
+                        NodeJS for Powerful Multiclient Backend Services
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-blue'><FaCircle/></span>
+                        ExpressJS for Lighting Fast, Complex Routing
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-blue'><FaCircle/></span>
+                        EJS for Server-Side Rendering, for a more compact application
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-blue'><FaCircle/></span>
+                        PostgreSQL for Resource-cheap Database Managing 
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-blue'><FaCircle/></span>
+                        Our Local Suite of Encryption/Routing/Client Authentication for Solid Protection
+                    </p>
                 </div>
             </div>
 

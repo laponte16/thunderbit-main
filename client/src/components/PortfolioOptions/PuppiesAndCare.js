@@ -1,4 +1,6 @@
 import React from 'react';
+import logo from '../images/logo.png';
+import {FaCircle} from "react-icons/fa";
 
 function PuppiesAndCare() {
 
@@ -11,12 +13,34 @@ function PuppiesAndCare() {
                 <div className='self-center'>
                     Aqui una Introduccion
                 </div>
-                <div className='self-center'>
-                    Aqui Imagenes
+                <div className='flex flex-col md:flex-row self-center mt-4'>
+                    <img className='w-full md:w-1/3' src={logo} alt="" />
+                    <img className='w-full md:w-1/3' src={logo} alt="" />
+                    <img className='w-full md:w-1/3' src={logo} alt="" />
                 </div>
-                <div className='self-center'>
-                    Aqui las funciones o puntos resaltantes, a nivel tecnico
+                <div className='flex flex-col self-center'>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-blue'><FaCircle/></span>
+                        JQuery for Client-side Scripting
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-blue'><FaCircle/></span>
+                        A Landing Page to Showcase Your Business's Strong Points From the Get-go 
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-blue'><FaCircle/></span>
+                        Cheap to mantain and with no need for any fancy hosting service!
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-blue'><FaCircle/></span>
+                        We'll help you study the best marketing practices in your field
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-blue'><FaCircle/></span>
+                        A Bilingual Site, in both English and Spanish 
+                    </p>
                 </div>
+                
             </div>
 
     );
