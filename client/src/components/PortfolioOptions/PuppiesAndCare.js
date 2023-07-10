@@ -1,5 +1,8 @@
 import React from 'react';
 import logo from '../images/logo.png';
+import PncHome from '../images/PncHome.png';
+import PncLanding from '../images/PncLanding.png';
+import PncTraining from '../images/PncTraining.png';
 import {FaCircle} from "react-icons/fa";
 
 function PuppiesAndCare() {
@@ -14,9 +17,9 @@ function PuppiesAndCare() {
                     Aqui una Introduccion
                 </div>
                 <div className='flex flex-col md:flex-row self-center mt-4'>
-                    <img className='w-full md:w-1/3' src={logo} alt="" />
-                    <img className='w-full md:w-1/3' src={logo} alt="" />
-                    <img className='w-full md:w-1/3' src={logo} alt="" />
+                    <img className='w-full md:w-1/3' src={PncHome} alt="" />
+                    <img className='w-full md:w-1/3' src={PncLanding} alt="" />
+                    <img className='w-full md:w-1/3' src={PncTraining} alt="" />
                 </div>
                 <div className='flex flex-col self-center'>
                     <p className='flex flex-row'>
