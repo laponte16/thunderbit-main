@@ -17,11 +17,11 @@ function PuppiesAndCare() {
                     Aqui una Introduccion
                 </div>
                 <div className='flex flex-col md:flex-row self-center mt-4'>
-                    <img className='w-full md:w-1/3' src={PncHome} alt="" />
-                    <img className='w-full md:w-1/3' src={PncLanding} alt="" />
-                    <img className='w-full md:w-1/3' src={PncTraining} alt="" />
+                    <img className='w-full md:w-1/3 rounded border-2 borde-blue m-1' src={PncHome} alt="" />
+                    <img className='w-full md:w-1/3 rounded border-2 borde-blue m-1' src={PncLanding} alt="" />
+                    <img className='w-full md:w-1/3 rounded border-2 borde-blue m-1' src={PncTraining} alt="" />
                 </div>
-                <div className='flex flex-col self-center'>
+                <div className='flex flex-col self-center my-7 rounded border-y-4 borde-dark p-5'>
                     <p className='flex flex-row'>
                         <span className='self-center text-[5px] pr-1 texto-blue'><FaCircle/></span>
                         JQuery for Client-side Scripting

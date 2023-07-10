@@ -86,6 +86,10 @@ transition: 200ms ease-in-out;
 
 /*TRANSPARENCIA*/
 
+.fondo-dark{
+
+}
+
 .fondo-blue2{
     background-color: rgb(119, 119, 228, 0.3);
   }
