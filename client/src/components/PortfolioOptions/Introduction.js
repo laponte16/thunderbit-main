@@ -14,15 +14,15 @@ function Introduction() {
                         Here we try to showcase a variety of completed Sites, with vastly different approaches,
                         techniques and themes. 
                     </p>
-                    <p className='mt-1'>
+                    <p className='mt-2'>
                         The idea is to give you, our potential partner, guidance into what
                         you can expect from us in terms of quality and features, as well as present you with the
                         mindset of there being many paths to solve a Problem.
                     </p>
-                    <p className='mt-1'>
+                    <p className='mt-2'>
                         The Problem in Question?
                     </p>
-                    <p className='mt-1'>
+                    <p className='mt-2'>
                         <b>Not having Your dreamed Website in hand already!</b>  
                     </p>
                 </div>
