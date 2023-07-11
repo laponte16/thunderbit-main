@@ -21,7 +21,7 @@ function PuppiesAndCare() {
                     <img className='w-full md:w-1/3 rounded border-2 borde-blue m-1' src={PncLanding} alt="" />
                     <img className='w-full md:w-1/3 rounded border-2 borde-blue m-1' src={PncTraining} alt="" />
                 </div>
-                <div className='flex flex-col self-center my-7 rounded border-y-4 borde-dark p-5'>
+                <div className='flex flex-col self-center my-7 rounded border borde-dark fondo-blue2 p-7'>
                     <p className='flex flex-row'>
                         <span className='self-center text-[5px] pr-1 texto-blue'><FaCircle/></span>
                         JQuery for Client-side Scripting
