@@ -1,5 +1,7 @@
 import React from 'react';
-import logo from '../images/logo.png';
+import ISPHome from '../images/ISPHome.png';
+import ISPHome2 from '../images/ISPHome2.png';
+import ISPplans from '../images/ISPplans.png';
 import {FaCircle} from "react-icons/fa";
 
 function ISPSample() {
@@ -10,7 +12,7 @@ function ISPSample() {
             <div className='flex flex-col justify-center'>
                 <span className='self-center texto-subtitulo texto-blue'><b>ISP Sample</b></span>
                 <span className='self-center texto-blue'><b>A Fullstack Website for a New and Quickly Expanding Internet Service Provider</b></span>
-                <div className='self-center text-center fondo-blue texto-white rounded-md p-2'>
+                <div className='self-center fondo-blue texto-white rounded my-7 border-2 borde-dark py-7 px-7 sm:px-20'>
                     <p>
                         A fully animated legacy App for a budding Internet Provider.
                     </p>
@@ -30,11 +32,11 @@ function ISPSample() {
                     </p>
                 </div>
                 <div className='flex flex-col md:flex-row self-center mt-4'>
-                    <img className='w-full md:w-1/3' src={logo} alt="" />
-                    <img className='w-full md:w-1/3' src={logo} alt="" />
-                    <img className='w-full md:w-1/3' src={logo} alt="" />
+                    <img className='w-full md:w-1/3 rounded border-2 borde-blue m-1' src={ISPHome} alt="" />
+                    <img className='w-full md:w-1/3 rounded border-2 borde-blue m-1' src={ISPHome2} alt="" />
+                    <img className='w-full md:w-1/3 rounded border-2 borde-blue m-1' src={ISPplans} alt="" />
                 </div>
-                <div className='flex flex-col self-center'>
+                <div className='flex flex-col self-center my-7 rounded border borde-dark fondo-blue2 p-7'>
                     <p className='flex flex-row'>
                         <span className='self-center text-[5px] pr-1 texto-blue'><FaCircle/></span>
                         JQuery for Client-side Scripting

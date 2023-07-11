@@ -9,7 +9,7 @@ function Introduction() {
             <div className='flex flex-col justify-center'>
                 <span className='self-center texto-subtitulo texto-blue'><b>Compendium</b></span>
                 <span className='self-center texto-blue'><b>Finished Projects of Note</b></span>
-                <div className='self-center text-center fondo-blue texto-white rounded-md p-2'>
+                <div className='self-center fondo-blue texto-white rounded my-7 border-2 borde-dark py-7 px-7 sm:px-20'>
                     <p>
                         Here we try to showcase a variety of completed Sites, with vastly different approaches,
                         techniques and themes. 
