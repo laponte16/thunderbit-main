@@ -10,7 +10,7 @@ function BookLovers() {
             <div className='flex flex-col justify-center'>
                 <span className='self-center texto-subtitulo texto-blue'><b>Book Lovers</b></span>
                 <span className='self-center texto-blue'><b>A Server-Rendered Book Review Forum for the Passionate Bibliophiles</b></span>
-                <div className='self-center text-center fondo-blue texto-white rounded-md p-2'>
+                <div className='self-center fondo-blue texto-white rounded my-7 border-2 borde-dark py-7 px-7 sm:px-20'>
                     <p>
                         A compact and easy to use forum-suite for community interaction 
                         set around debate and shared love for literature.
@@ -35,7 +35,7 @@ function BookLovers() {
                     <img className='w-full md:w-1/3' src={logo} alt="" />
                     <img className='w-full md:w-1/3' src={logo} alt="" />
                 </div>
-                <div className='flex flex-col self-center'>
+                <div className='flex flex-col self-center my-7 rounded border borde-dark fondo-blue2 p-7'>
                     <p className='flex flex-row'>
                         <span className='self-center text-[5px] pr-1 texto-blue'><FaCircle/></span>
                         JQuery for Client-side Scripting
