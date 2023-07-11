@@ -26,7 +26,8 @@ function BookLovers() {
                         like experience keeping, badges and the limitless expansion of user-made genres. 
                     </p>
                     <p className='mt-2'>
-                        Fully contained into a single NodeJs App that does all the rendering, it can be run easily
+                        Fully contained into a single NodeJs App that does all the rendering, 
+                        it can be run easily
                         from any modern hosting service. 
                     </p>
                 </div>
