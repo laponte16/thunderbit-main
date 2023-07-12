@@ -11,7 +11,7 @@ function PuppiesAndCare() {
 
             
             <div className='flex flex-col justify-center'>
-                <span className='self-center texto-subtitulo texto-blue'><b>Puppies & Care</b></span>
+                <span className='self-center texto-big texto-blue overline'><b>Puppies & Care</b></span>
                 <span className='self-center texto-blue'><b>A Static Website Aimed at Entrepreneurial Petcare Shops</b></span>
                 <div className='self-center fondo-blue texto-white rounded my-7 border-2 borde-dark py-7 px-7 sm:px-20'>
                     <p>

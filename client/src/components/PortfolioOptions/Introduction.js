@@ -7,7 +7,7 @@ function Introduction() {
 
             
             <div className='flex flex-col justify-center'>
-                <span className='self-center texto-subtitulo texto-blue'><b>Compendium</b></span>
+                <span className='self-center texto-big texto-blue overline'><b>Compendium</b></span>
                 <span className='self-center texto-blue'><b>Finished Projects of Note</b></span>
                 <div className='self-center fondo-blue texto-white rounded my-7 border-2 borde-dark py-7 px-7 sm:px-20'>
                     <p>
@@ -27,9 +27,7 @@ function Introduction() {
                     </p>
                 </div>
                 <div className='flex flex-col md:flex-row self-center mt-4'>
-                    <img className='w-full md:w-1/3' src={logo} alt="" />
-                    <img className='w-full md:w-1/3' src={logo} alt="" />
-                    <img className='w-full md:w-1/3' src={logo} alt="" />
+                    <img className='w-full' src={logo} alt="" />
                 </div>
             </div>
 

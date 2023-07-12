@@ -10,7 +10,7 @@ function ISPSample() {
 
             
             <div className='flex flex-col justify-center'>
-                <span className='self-center texto-subtitulo texto-blue'><b>ISP Sample</b></span>
+                <span className='self-center texto-big texto-blue overline'><b>ISP Sample</b></span>
                 <span className='self-center texto-blue'><b>A Fullstack Website for a New and Quickly Expanding Internet Service Provider</b></span>
                 <div className='self-center fondo-blue texto-white rounded my-7 border-2 borde-dark py-7 px-7 sm:px-20'>
                     <p>

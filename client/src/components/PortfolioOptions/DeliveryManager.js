@@ -12,7 +12,7 @@ function DeliveryManager() {
 
             
             <div className='flex flex-col justify-center'>
-                <span className='self-center texto-subtitulo texto-blue'><b>Delivery Manager</b></span>
+                <span className='self-center texto-big texto-blue overline'><b>Delivery Manager</b></span>
                 <span className='self-center texto-blue'><b>A RESTful Application for Bulk Sale and Business Administration</b></span>
                 <div className='self-center fondo-blue texto-white rounded my-7 border-2 borde-dark py-7 px-7 sm:px-20'>
                     <p>

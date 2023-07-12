@@ -17,7 +17,7 @@ function Home() {
                 </div>
             </div>
             <div className='w-full flex flex-col mt-8 rounded pt-1 pb-8 texto-white'>
-                <p className='self-center texto-subtitulo texto-blue p-1 rounded-md w-2/3 text-center'><b>Who We Are</b></p>
+                <p className='self-center texto-big texto-blue overline p-1 rounded-md w-2/3 text-center'><b>Who We Are</b></p>
 
                 <p className='self-center mt-3 fondo-blue p-2 rounded-md w-2/3 text-center'>
                     Thunderbit Code is an independent group of Computer Engineers 
