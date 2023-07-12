@@ -1,5 +1,7 @@
 import React from 'react';
-import logo from '../images/logo.png';
+import BookLogin from '../images/BookLogin.png';
+import BookHome from '../images/BookHome.png';
+import BookForum from '../images/BookForum.png';
 import {FaCircle} from "react-icons/fa";
 
 function BookLovers() {
@@ -32,9 +34,9 @@ function BookLovers() {
                     </p>
                 </div>
                 <div className='flex flex-col md:flex-row self-center mt-4'>
-                    <img className='w-full md:w-1/3' src={logo} alt="" />
-                    <img className='w-full md:w-1/3' src={logo} alt="" />
-                    <img className='w-full md:w-1/3' src={logo} alt="" />
+                    <img className='w-full md:w-1/3 rounded border-2 borde-blue m-1' src={BookHome} alt="" />
+                    <img className='w-full md:w-1/3 rounded border-2 borde-blue m-1' src={BookLogin} alt="" />
+                    <img className='w-full md:w-1/3 rounded border-2 borde-blue m-1' src={BookForum} alt="" />
                 </div>
                 <div className='flex flex-col self-center my-7 rounded border borde-dark fondo-blue2 p-7'>
                     <p className='flex flex-row'>

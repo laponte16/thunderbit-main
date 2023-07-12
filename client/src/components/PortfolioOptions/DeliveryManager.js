@@ -1,5 +1,9 @@
 import React from 'react';
-import logo from '../images/logo.png';
+import GpAdm from '../images/GpAdm.png';
+import Gpcobrar from '../images/Gpcobrar.png';
+import GpDesp from '../images/GpDesp.png';
+import GpHome from '../images/GpHome.png';
+import GpLogin from '../images/GpLogin.png';
 import {FaCircle} from "react-icons/fa";
 
 function DeliveryManager() {
@@ -39,10 +43,17 @@ function DeliveryManager() {
                         understand presentation.
                     </p>
                 </div>
-                <div className='flex flex-col md:flex-row self-center mt-4'>
-                    <img className='w-full md:w-1/3' src={logo} alt="" />
-                    <img className='w-full md:w-1/3' src={logo} alt="" />
-                    <img className='w-full md:w-1/3' src={logo} alt="" />
+                <div className='flex flex-col self-center mt-4'>
+                    <div className='flex flex-col md:flex-row self-center mt-4'>
+                        <img className='w-full md:w-1/3 rounded border-2 borde-blue m-1' src={GpLogin} alt="" />
+                        <img className='w-full md:w-1/3 rounded border-2 borde-blue m-1' src={GpHome} alt="" />
+                        <img className='w-full md:w-1/3 rounded border-2 borde-blue m-1'src={GpAdm} alt="" />
+                    </div>
+                    <div className='flex flex-col md:flex-row self-center justify-center object-center mt-4'>
+                        <img className='w-full md:w-1/3 rounded border-2 borde-blue m-1' src={GpDesp} alt="" />
+                        <img className='w-full md:w-1/3 rounded border-2 borde-blue m-1' src={Gpcobrar} alt="" />
+                    </div>
+                    
                 </div>
                 <div className='flex flex-col self-center my-7 rounded border borde-dark fondo-blue2 p-7'>
                     <p className='flex flex-row'>
