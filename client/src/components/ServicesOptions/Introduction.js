@@ -12,23 +12,25 @@ function Introduction() {
                 <span className='self-center'><b>A Couple Things to Bear in Mind</b></span>
                 <div className='self-center my-7 '>
                     <p>
-                        A compact and easy to use forum-suite for community interaction 
-                        set around debate and shared love for literature.
+                        Thank you for taking the time to past through here!
                     </p>
                     <p className='mt-2'>
-                        Tracking of the hottest trends on the site as well as up and coming new arrivals.
+                        We're a small team and do most of our business remotely for the sake of simplicity and practicality.
                     </p>
                     <p className='mt-2'>
-                        The Forum is searchable by topic and genre simultaneously. 
+                        While we're open to chats, videocalls and emails outside of our chosen mediums,
+                        we believe it's best if we keep all the actual dealings on Fiverr/Upwork, as to ensure 
+                        a layer of security for both parties. 
                     </p>
                     <p className='mt-2'>
-                        The groundwork is set for further refining based on the direction of the community,
-                        like experience keeping, badges and the limitless expansion of user-made genres. 
+                        We work best on what we know and it will never be easy to give trustworthy estimates on time or
+                        price outside of our expertise. That is the reason we'll be leary to work with frameworks or
+                        enviroments too removed from our own unless the client is aware of said fact and how it could raise 
+                        project cost. 
                     </p>
                     <p className='mt-2'>
-                        Fully contained into a single NodeJs App that does all the rendering, 
-                        it can be run easily
-                        from any modern hosting service. 
+                        All of our work has a life-long warranty, as long as it is not modified beyond the original scope. 
+                        We don't charge for short consultations, so don't be afraid to ask for clarification before any purchase!
                     </p>
                 </div>
             </div>

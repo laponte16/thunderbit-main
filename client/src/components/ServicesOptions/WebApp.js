@@ -12,11 +12,12 @@ function WebApp() {
         <span className='self-center'><b>Modern, Compact, Powerful</b></span>
         <div className='self-center my-7 '>
             <p>
-                A compact and easy to use forum-suite for community interaction 
-                set around debate and shared love for literature.
+                Are You Into Commerce, Entertaiment, Marketing or Building a Community Online?
+                A Fullblown Web Application may be just what you're looking for.
             </p>
             <p className='mt-2'>
-                Tracking of the hottest trends on the site as well as up and coming new arrivals.
+                Whenever there is a need to store and process the Data we get from our Users,
+                this should be your choice.
             </p>
             <p className='mt-2'>
                 The Forum is searchable by topic and genre simultaneously. 
