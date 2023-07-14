@@ -12,23 +12,51 @@ function Translation() {
         <span className='self-center'><b>Open Your Business to New Horizons</b></span>
         <div className='self-center my-7 '>
             <p>
-                A compact and easy to use forum-suite for community interaction 
-                set around debate and shared love for literature.
+                If you wish to extend your feet into the waters of a bilingual audience, 
+                then you came to the right place.
             </p>
             <p className='mt-2'>
-                Tracking of the hottest trends on the site as well as up and coming new arrivals.
+                Combined, the English and Spanish speaking world represent almost two billion people!
             </p>
             <p className='mt-2'>
-                The Forum is searchable by topic and genre simultaneously. 
+                Be it translating Your Website or Application from English to Spanish or the other way around,
+                We're happy to help! 
             </p>
             <p className='mt-2'>
-                The groundwork is set for further refining based on the direction of the community,
-                like experience keeping, badges and the limitless expansion of user-made genres. 
+                You can expect from our Translation Service: 
             </p>
+            <div className='flex flex-col self-center fondo-blue2 p-3'>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        Deep grammatical and cultural Knowledge of both sides of the equation
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        High Proficiency in technical terms and localisms
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        Lighting-fast writting progress
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        Affordable rates
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        Our full support in the marketing deparment 
+                        on how to better reach foreign audiences
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        Proof-reading and consultations before the final delivery
+                    </p>
+                </div>
             <p className='mt-2'>
-                Fully contained into a single NodeJs App that does all the rendering, 
-                it can be run easily
-                from any modern hosting service. 
+                Interested? Find us on 
+                <b className='hover-text-blue rounded p-1 texto-subtitulo'><a href="https://www.fiverr.com/thunderbitcode">Fiverr</a></b> 
+                and 
+                <b className='hover-text-blue rounded p-1 texto-subtitulo'><a href="https://www.upwork.com/freelancers/~01705b8c54e863f159">Upwork</a></b> 
             </p>
         </div>
     </div>
