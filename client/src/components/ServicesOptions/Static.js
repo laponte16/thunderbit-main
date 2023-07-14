@@ -12,23 +12,55 @@ function Static() {
         <span className='self-center'><b>Build Yourself a Home in the Web</b></span>
         <div className='self-center my-7 '>
             <p>
-                A compact and easy to use forum-suite for community interaction 
-                set around debate and shared love for literature.
+                The Classic Experience: Your Little Piece of the World Wide Web, for you to use 
+                as you see fit.
             </p>
             <p className='mt-2'>
-                Tracking of the hottest trends on the site as well as up and coming new arrivals.
+                There is no better way in the modern World to make Yourself and Your Creations Known to 
+                Everybody.
             </p>
             <p className='mt-2'>
-                The Forum is searchable by topic and genre simultaneously. 
+                If We can work Together to make a Blueprint for it, 
+                then We can assure you We can Build it for you. 
             </p>
             <p className='mt-2'>
-                The groundwork is set for further refining based on the direction of the community,
-                like experience keeping, badges and the limitless expansion of user-made genres. 
+                You can expect from our Static Sites: 
             </p>
+            <div className='flex flex-col self-center fondo-blue2 p-3'>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        Cutting Edge Frameworks and technologies
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        Modern and Professional Design
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        Practically universal compatibility and trivial file size
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        Fully Documented, with Manuals, Progress Reports and Video Proof
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        On-going Support on the lifetime of the Site
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        Source Code Provided
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        No charges applied to short consultations and full Warranty
+                    </p>
+                </div>
             <p className='mt-2'>
-                Fully contained into a single NodeJs App that does all the rendering, 
-                it can be run easily
-                from any modern hosting service. 
+                Interested? Find us on 
+                <b className='hover-text-blue rounded p-1 texto-subtitulo'><a href="https://www.fiverr.com/thunderbitcode">Fiverr</a></b> 
+                and 
+                <b className='hover-text-blue rounded p-1 texto-subtitulo'><a href="https://www.upwork.com/freelancers/~01705b8c54e863f159">Upwork</a></b> 
             </p>
         </div>
     </div>

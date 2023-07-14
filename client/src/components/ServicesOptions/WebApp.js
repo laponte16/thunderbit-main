@@ -20,16 +20,52 @@ function WebApp() {
                 this should be your choice.
             </p>
             <p className='mt-2'>
-                The Forum is searchable by topic and genre simultaneously. 
+                A couple examples would be Forums, Shopping Sites, Record Keeping, Videogames and any kind of 
+                Website that would involve changing what is displayed beyond just adding new content. 
             </p>
             <p className='mt-2'>
-                The groundwork is set for further refining based on the direction of the community,
-                like experience keeping, badges and the limitless expansion of user-made genres. 
+                You can expect from our Apps: 
             </p>
+            <div className='flex flex-col self-center fondo-blue2 p-3'>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        Cutting Edge Frameworks and technologies
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        Modern and Professional Design
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        Secure Transfer and Storage of sensible Data 
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        Easy and cheap to run on most modern enviroments
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        Fully Documented, with Manuals, Progress Reports and Video Proof
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        On-going Support on the lifetime of the Application 
+                         
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        Source Code Provided
+                    </p>
+                    <p className='flex flex-row'>
+                        <span className='self-center text-[5px] pr-1 texto-white'><FaCircle/></span>
+                        No charges applied to short consultations and full Warranty
+                    </p>
+                </div>
             <p className='mt-2'>
-                Fully contained into a single NodeJs App that does all the rendering, 
-                it can be run easily
-                from any modern hosting service. 
+                Interested? Find us on 
+                <b className='hover-text-blue rounded p-1 texto-subtitulo'><a href="https://www.fiverr.com/thunderbitcode">Fiverr</a></b> 
+                and 
+                <b className='hover-text-blue rounded p-1 texto-subtitulo'><a href="https://www.upwork.com/freelancers/~01705b8c54e863f159">Upwork</a></b> 
             </p>
         </div>
     </div>

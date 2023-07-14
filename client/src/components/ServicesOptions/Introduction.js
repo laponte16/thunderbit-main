@@ -26,11 +26,12 @@ function Introduction() {
                         We work best on what we know and it will never be easy to give trustworthy estimates on time or
                         price outside of our expertise. That is the reason we'll be leary to work with frameworks or
                         enviroments too removed from our own unless the client is aware of said fact and how it could raise 
-                        project cost. 
+                        project costs. 
                     </p>
                     <p className='mt-2'>
                         All of our work has a life-long warranty, as long as it is not modified beyond the original scope. 
-                        We don't charge for short consultations, so don't be afraid to ask for clarification before any purchase!
+                        We don't charge for short consultations, 
+                        so don't be afraid to ask for clarification before any purchase or extension!
                     </p>
                 </div>
             </div>
