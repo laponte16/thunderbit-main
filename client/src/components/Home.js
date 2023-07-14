@@ -1,16 +1,17 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import logo from './images/logo.png'
+import pexels from './images/pexels.gif'
 import { ImPencil2, ImCogs, ImMobile, ImUser, ImLock } from "react-icons/im";
 
 function Home() {
     return(
         <div className='fondo-white py-2 px-8'>
-            <div className='flex flex-row justify-center md:justify-end w-full'>
-                <div className='w-full p-2 fondo-blue text-center'>
-                    IMAGEN TIKI TIKI
+            <div className='flex flex-col sm:flex-row justify-center md:justify-end w-full'>
+                <div className='w-full p-2 text-center hidden md:flex'>
+                    <img src={pexels} alt="my-gif" />
                 </div>
-                <div className='flex flex-col justify-end items-center w-2/3 md:w-1/4 fondo-blue2 py-3 px-8 text-center rounded'>
+                <div className='flex flex-col items-center w-full md:w-1/4 fondo-blue2 py-3 px-8 text-center rounded'>
                     <p className='texto-titulo mb-2'><b>Computer Engineers</b></p>
                     <p className='texto-subtitulo pb-1'><b>Profesional Web Developers</b></p>
                     <Link to='/services' className="texto-subtitulo fondo-blue w-fit py-1 px-2 rounded texto-white hover-blue"><b>Our Offers</b></Link>
