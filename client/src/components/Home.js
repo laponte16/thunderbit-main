@@ -7,8 +7,8 @@ import { ImPencil2, ImCogs, ImMobile, ImUser, ImLock } from "react-icons/im";
 function Home() {
     return(
         <div className='fondo-white py-2 px-8'>
-            <div className='flex flex-col sm:flex-row justify-center md:justify-end w-full'>
-                <div className='w-full p-2 text-center hidden md:flex'>
+            <div className='flex flex-col sm:flex-row justify-center md:justify-end w-full pt-4'>
+                <div className='w-full px-2 text-center hidden md:flex'>
                     <img src={pexels} alt="my-gif" />
                 </div>
                 <div className='flex flex-col justify-center items-center w-full md:w-1/4 fondo-blue2 py-3 px-8 text-center rounded'>
