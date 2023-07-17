@@ -20,13 +20,17 @@ function Home() {
             <div className='w-full flex flex-col mt-8 rounded pt-1 pb-8 texto-white'>
                 <p className='self-center texto-big texto-blue overline p-1 rounded-md w-2/3 text-center'><b>Who We Are</b></p>
 
-                <p className='self-center mt-3 fondo-blue p-2 rounded-md w-2/3 text-center'>
+                <p className='flex flex-col self-center mt-3 fondo-blue p-2 rounded-md w-2/3 text-center'>
                     Thunderbit Code is an independent group of Computer Engineers 
                     specialized in Web Development, offering services 
                     ranging from simple static pages to the most state-of-the-art Apps. 
-                    We're passionate about our work and trying out new things everyday, 
-                    firmly bilinguals in both English and Spanish 
-                    and fielding fully fledged modern design and marketing strategies.
+                    We're passionate about our work and trying out new things everyday! 
+                    
+                    <span>
+                        Bilinguals in English and Spanish 
+                        and fielding fully fledged modern design and marketing strategies, 
+                        our team is ready to tackle any challenge.
+                    </span>
                 </p>
                 <div className='flex flex-row justify-evenly texto-blue my-4 w-full sm:w-2/3 self-center text-center'>
                     <div className='flex flex-col w-1/3 items-center'>
@@ -53,11 +57,11 @@ function Home() {
                     </div>
                 </div>
                 <p className='self-center mt-3 fondo-blue p-2 rounded-md w-2/3 text-center'>
-                    If you're starting a new business, 
+                    Are you starting a new business, 
                     branching out to new sectors, 
                     modernizing your brand or 
                     simply want a little piece of the internet to build your dreams on? 
-                    We would be more than happy to work with you together on achieving it.
+                    We would be more than happy to work alongside you on achieving it.
                 </p>
             </div>
             <div className='flex flex-row justify-center w-full mt-10 px-16'>
