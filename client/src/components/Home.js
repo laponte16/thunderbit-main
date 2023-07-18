@@ -13,9 +13,10 @@ function Home() {
                 <div className='w-full px-2 text-center hidden md:flex'>
                     <img src={pexels} alt="my-gif" />
                 </div>
-                <div className='flex flex-col justify-center items-center w-full md:w-1/4 fondo-blue2 py-3 px-8 text-center rounded'>
-                    <p className='texto-titulo mb-2'><b>Computer Engineers</b></p>
-                    <p className='texto-subtitulo pb-1'><b>Profesional Web Developers</b></p>
+                <div className='flex flex-col justify-center items-center w-full md:w-1/4 fondo-blue2 py-3 px-8 text-center rounded border-2 borde-blue'>
+                    <p className='texto-subtitulo mb-2 texto-fancy'><b>Computer Engineers</b></p>
+                    <p className='texto-titulo mb-2 texto-fancy'><b>&</b></p>
+                    <p className='texto-subtitulo pb-1 texto-fancy'><b>Professional Web Developers</b></p>
                     <Link to='/services' className="texto-subtitulo fondo-blue w-fit py-1 px-2 rounded texto-white hover-blue"><b>Our Offers</b></Link>
                 </div>
             </div>
