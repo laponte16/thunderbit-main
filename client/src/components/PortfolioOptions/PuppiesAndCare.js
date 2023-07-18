@@ -4,12 +4,13 @@ import PncHome from '../images/PncHome.png';
 import PncLanding from '../images/PncLanding.png';
 import PncTraining from '../images/PncTraining.png';
 import {FaCircle} from "react-icons/fa";
+import { Fade } from '@mui/material';
 
 function PuppiesAndCare() {
 
     return(
 
-            
+        <Fade in={true} timeout={1000}>
             <div className='flex flex-col justify-center'>
                 <span className='self-center texto-big texto-blue overline'><b>Puppies & Care</b></span>
                 <span className='self-center texto-blue'><b>A Static Website Aimed at Entrepreneurial Petcare Shops</b></span>
@@ -63,6 +64,7 @@ function PuppiesAndCare() {
                 </div>
                 
             </div>
+        </Fade>
 
     );
 }

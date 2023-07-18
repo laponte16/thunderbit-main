@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import Select, {createFilter} from 'react-select';
+import { Fade } from '@mui/material';
 
 import Introduction from './PortfolioOptions/Introduction';
 import DeliveryManager from './PortfolioOptions/DeliveryManager';
@@ -42,7 +43,12 @@ function Portfolio() {
             <div className='flex flex-col justify-center mt-4'>
                 {
                     vista === 0 &&
-                    <Introduction/>
+                    <Fade in={true} timeout={1000}>
+                        <div>
+                            <Introduction/>
+                        </div>
+                    </Fade>
+                    
                 }
                 {
                     vista === 1 &&

@@ -5,12 +5,13 @@ import GpDesp from '../images/GpDesp.png';
 import GpHome from '../images/GpHome.png';
 import GpLogin from '../images/GpLogin.png';
 import {FaCircle} from "react-icons/fa";
+import { Fade } from '@mui/material';
 
 function DeliveryManager() {
 
     return(
 
-            
+        <Fade in={true} timeout={1000}>
             <div className='flex flex-col justify-center'>
                 <span className='self-center texto-big texto-blue overline'><b>Delivery Manager</b></span>
                 <span className='self-center texto-blue'><b>A RESTful Application for Bulk Sale and Business Administration</b></span>
@@ -86,6 +87,7 @@ function DeliveryManager() {
                     </p>
                 </div>
             </div>
+        </Fade>
 
     );
 }

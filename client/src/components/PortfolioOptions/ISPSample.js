@@ -3,12 +3,13 @@ import ISPHome from '../images/ISPHome.png';
 import ISPHome2 from '../images/ISPHome2.png';
 import ISPplans from '../images/ISPplans.png';
 import {FaCircle} from "react-icons/fa";
+import { Fade } from '@mui/material';
 
 function ISPSample() {
 
     return(
 
-            
+        <Fade in={true} timeout={1000}>
             <div className='flex flex-col justify-center'>
                 <span className='self-center texto-big texto-blue overline'><b>ISP Sample</b></span>
                 <span className='self-center texto-blue'><b>A Fullstack Website for a New and Quickly Expanding Internet Service Provider</b></span>
@@ -59,6 +60,8 @@ function ISPSample() {
                     </p>
                 </div>
             </div>
+        </Fade>
+            
 
     );
 }

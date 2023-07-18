@@ -3,12 +3,13 @@ import BookLogin from '../images/BookLogin.png';
 import BookHome from '../images/BookHome.png';
 import BookForum from '../images/BookForum.png';
 import {FaCircle} from "react-icons/fa";
+import { Fade } from '@mui/material';
 
 function BookLovers() {
 
     return(
 
-            
+        <Fade in={true} timeout={1000}>
             <div className='flex flex-col justify-center'>
                 <span className='self-center texto-big texto-blue overline'><b>Book Lovers</b></span>
                 <span className='self-center texto-blue'><b>A Server-Rendered Book Review Forum for the Passionate Bibliophiles</b></span>
@@ -69,6 +70,7 @@ function BookLovers() {
                     </p>
                 </div>
             </div>
+        </Fade>
 
     );
 }
