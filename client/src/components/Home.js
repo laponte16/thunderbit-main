@@ -2,11 +2,13 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import logo from './images/logo.png'
 import pexels from './images/pexels.gif'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 import { ImPencil2, ImCogs, ImMobile, ImUser, ImLock } from "react-icons/im";
 
 function Home() {
     return(
-        <div className='fondo-white py-2 px-8'>
+        <div className='flex flex-col fondo-white py-2 px-8 items-center w-full'>
             <div className='flex flex-col sm:flex-row justify-center md:justify-end w-full pt-4'>
                 <div className='w-full px-2 text-center hidden md:flex'>
                     <img src={pexels} alt="my-gif" />
@@ -64,10 +66,24 @@ function Home() {
                     We would be more than happy to work alongside you on achieving it.
                 </p>
             </div>
+            <Carousel
+            showThumbs = {false}
+            showStatus = {false}
+            emulateTouch = {true}
+            className='w-full lg:w-4/5'
+            >
+                <div className=''>
+                    <img src={logo}></img>
+                </div>
+                <div className=''>
+                    <img src={logo}></img>
+                    </div>
+                <div className=''>
+                    <img src={logo}></img>
+                    </div>
+            </Carousel>
             <div className='flex flex-row justify-center w-full mt-10 px-16'>
-                <div className='flex flex-col justify-end w-1/4 p-2'><img src={logo}></img></div>
-                <div className='w-2/4 flex flex-col justify-end p-2'><img src={logo}></img></div>
-                <div className='w-1/4 flex flex-col justify-end p-2'><img src={logo}></img></div>
+                
             </div>
         </div>
     );
