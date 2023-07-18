@@ -97,3 +97,7 @@ transition: 200ms ease-in-out;
 .fondo-blue2{
     background-color: rgb(119, 119, 228, 0.3);
   }
+
+.fondo-white2{
+    background-color: rgb(243, 243, 247, 0.3);
+}
