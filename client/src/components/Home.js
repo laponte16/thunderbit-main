@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import logo from './images/logo.png'
 import pexels from './images/pexels.gif'
+import carousel3 from './images/carousel3.jpg'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { ImPencil2, ImCogs, ImMobile, ImUser, ImLock } from "react-icons/im";
@@ -89,7 +90,7 @@ function Home() {
             className='w-full lg:w-4/5'
             >
                 <div className=''>
-                    <img src={logo}></img>
+                    <img src={carousel3}></img>
                 </div>
                 <div className=''>
                     <img src={logo}></img>
