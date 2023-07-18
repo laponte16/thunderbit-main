@@ -6,7 +6,7 @@ import { ImHome2, ImEnvelop, ImBriefcase, ImPower } from "react-icons/im";
 
 function Nav() {
     return(
-        <nav className='fondo-blue'>
+        <nav className='fondo-blue z-10'>
             <div className='flex flex-col justify-between'>
                 
                 <div className='flex flex-row'>

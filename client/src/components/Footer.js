@@ -6,7 +6,7 @@ import { TbBrandFiverr, TbBrandUpwork } from "react-icons/tb";
 
 function Footer() {
     return(
-        <footer className='fondo-blue'>
+        <footer className='fondo-blue z-10'>
             <div className='flex flex-row'>
                 <div className='flex flex-row w-1/2 justify-start texto-white'>
                     <p className='p-2'>ThunderBit Kiss kiss muah muah</p>
