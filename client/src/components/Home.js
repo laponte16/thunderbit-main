@@ -9,15 +9,16 @@ import { ImPencil2, ImCogs, ImMobile, ImUser, ImLock } from "react-icons/im";
 function Home() {
     return(
         <div className='flex flex-col fondo-white py-2 px-8 items-center w-full'>
-            <div className='flex flex-col sm:flex-row justify-center md:justify-end w-full pt-4'>
-                <div className='w-full px-2 text-center hidden md:flex'>
-                    <img src={pexels} alt="my-gif" />
-                </div>
-                <div className='flex flex-col justify-center items-center w-full md:w-1/4 fondo-blue2 py-3 px-8 text-center rounded border-2 borde-blue'>
-                    <p className='texto-subtitulo mb-2 texto-fancy'><b>Computer Engineers</b></p>
-                    <p className='texto-titulo mb-2 texto-fancy'><b>&</b></p>
-                    <p className='texto-subtitulo pb-1 texto-fancy'><b>Professional Web Developers</b></p>
+            <div className='flex justify-center items-end w-full pt-4 relative'>
+                <div className='flex flex-col justify-center items-center w-full 
+                md:w-3/5 fondo-blue2 texto-dark md:bg-opacity-50 md:bg-gray-100 py-3 px-8 text-center rounded md:float-right md:absolute'>
+                    <p className='texto-subtitulo mb-1 texto-fancy'><b>Computer Engineers</b></p>
+                    <p className='texto-titulo mb-1 texto-fancy'><b>&</b></p>
+                    <p className='texto-subtitulo pb-1 texto-fancy'><b className=''>Professional Web Developers</b></p>
                     <Link to='/services' className="texto-subtitulo fondo-blue w-fit py-1 px-2 rounded texto-white hover-blue"><b>Our Offers</b></Link>
+                </div>
+                <div className='w-full m-0 p-0 text-center hidden md:flex justify-center'>
+                    <img src={pexels} alt="my-gif" />
                 </div>
             </div>
             <div className='w-full flex flex-col mt-8 rounded pt-1 pb-8 texto-white'>
