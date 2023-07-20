@@ -10,7 +10,7 @@ function Nav() {
             <div className='flex flex-col justify-between'>
                 
                 <div className='flex flex-row'>
-                    <img src={logo} className='w-1/5 p-2'></img>
+                    <img src={logo} className='w-1/5 p-2' alt='Thunderbit Logo'></img>
                     <div className='flex flex-row w-full justify-around texto-white self-center'>
                         <Tooltip title="Home">
                             <Link to='/' className="w-fit h-fit "><span className=' texto-icon hover-text-blue'><ImHome2/></span></Link>

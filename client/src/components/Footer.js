@@ -17,7 +17,7 @@ function Footer() {
                 <div className='flex flex-row w-1/2 justify-end texto-white'>
                     <div className='p-2'>
                         <Tooltip title="Twitter">
-                            <Link to='/' className="w-fit h-fit">
+                            <Link to='/contact' className="w-fit h-fit">
                                 <span className=' texto-icon hover-text-blue'><ImTwitter/></span>
                             </Link>
                         </Tooltip>
@@ -25,7 +25,7 @@ function Footer() {
                     </div>
                     <div className='p-2'>
                         <Tooltip title="Instagram">
-                            <Link to='/portfolio' className="w-fit h-fit">
+                            <Link to='/contact' className="w-fit h-fit">
                                 <span className="texto-icon hover-text-blue"><ImInstagram/></span>
                             </Link>
                         </Tooltip>
@@ -33,7 +33,7 @@ function Footer() {
                     </div>
                     <div className='p-2'>
                         <Tooltip title="Fiverr">
-                            <Link to='/services' className="w-fit h-fit">
+                            <Link to='https://www.fiverr.com/thunderbitcode' className="w-fit h-fit">
                                 <span className=" texto-icon hover-text-blue"><TbBrandFiverr/></span>
                             </Link>
                         </Tooltip>
@@ -41,7 +41,7 @@ function Footer() {
                     </div>
                     <div className='p-2'>
                         <Tooltip title="Upwork">
-                            <Link to='/contact' className="w-fit h-fit">
+                            <Link to='https://www.upwork.com/freelancers/~01705b8c54e863f159' className="w-fit h-fit">
                                 <span className=" texto-icon hover-text-blue"><TbBrandUpwork/></span>
                             </Link>
                         </Tooltip>

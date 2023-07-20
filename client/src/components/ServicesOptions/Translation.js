@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../images/logo.png';
 import {FaCircle} from "react-icons/fa";
 import { Fade,Slide } from '@mui/material';
 

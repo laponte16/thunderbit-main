@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../images/logo.png';
 import PncHome from '../images/PncHome.png';
 import PncLanding from '../images/PncLanding.png';
 import PncTraining from '../images/PncTraining.png';
