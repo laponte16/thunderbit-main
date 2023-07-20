@@ -11,7 +11,7 @@ function Services() {
     const [vista, setVista] = useState(0);
 
     return(
-        <div className='fondo-white py-2 px-8'>
+        <div className='fondo-white pt-6 pb-2 px-8'>
             <div className='flex flex-col md:flex-row w-full'>
                 <div className='flex flex-col self-center text-center texto-dark w-full md:w-1/4 rounded border borde-dark fondo-blue2 p-7 mr-2'>
                    <button className='hover-blue rounded-md' onClick={()=> setVista(0)}>READ ME FIRST</button>

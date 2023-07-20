@@ -89,7 +89,7 @@ function Home() {
             showThumbs = {false}
             showStatus = {false}
             emulateTouch = {true}
-            className='w-full lg:w-4/5 '
+            className='w-full lg:w-4/6 mb-14'
             >
                 <div className=''>
                     <img src={carousel3}></img>
