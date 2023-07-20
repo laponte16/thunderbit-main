@@ -92,13 +92,13 @@ function Home() {
             className='w-full lg:w-4/6 mb-14'
             >
                 <div className=''>
-                    <img src={carousel3}></img>
+                    <img src={carousel3} alt='A Universe of Possibilities'></img>
                 </div>
                 <div className=''>
-                    <img src={carousel}></img>
+                    <img src={carousel} alt='Fast. Clean. Sharp'></img>
                     </div>
                 <div className=''>
-                    <img src={carousel2}></img>
+                    <img src={carousel2} alt='Power Up Your Dreams'></img>
                     </div>
             </Carousel>
             <div className='flex flex-row justify-center w-full mt-10 px-16'>

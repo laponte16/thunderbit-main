@@ -10,7 +10,7 @@ function Contact() {
                     <p>
                        <b>Picked Your Interest?</b> 
                     </p>
-                    <p>
+                    <p className='text-center'>
                         <b>You Can Find Us by Any of the Methods Below:</b>
                     </p>
                 </div>
