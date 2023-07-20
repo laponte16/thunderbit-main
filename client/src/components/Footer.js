@@ -7,9 +7,11 @@ import { TbBrandFiverr, TbBrandUpwork } from "react-icons/tb";
 function Footer() {
     return(
         <footer className='fondo-blue z-10'>
-            <div className='flex flex-row'>
-                <div className='flex flex-row w-1/2 justify-start texto-white'>
-                    <p className='p-2'>ThunderBit Kiss kiss muah muah</p>
+            <div className='flex flex-row p-2'>
+                <div className='flex flex-col w-1/2 justify-start texto-white texto-subtitulo'>
+                    <p>© Thunderbit Code 2023</p>
+                    <p>All Rights Reserved</p>
+                    
                 </div>
 
                 <div className='flex flex-row w-1/2 justify-end texto-white'>
