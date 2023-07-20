@@ -1,12 +1,10 @@
 import React from 'react';
 import logo from '../images/logo.png';
-import { Fade } from '@mui/material';
 
 function Introduction() {
 
     return(
 
-            //<Fade in={true} timeout={1000}>
                 <div className='flex flex-col justify-center'>
                     <span className='self-center texto-big texto-blue overline'><b>Compendium</b></span>
                     <span className='self-center texto-blue'><b>Finished Projects of Note</b></span>
@@ -31,7 +29,6 @@ function Introduction() {
                         <img className='w-full' src={logo} alt="" />
                     </div>
                 </div>
-            //</Fade>
             
 
     );
