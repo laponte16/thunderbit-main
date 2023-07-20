@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import logo from './images/logo.png'
 import pexels from './images/pexels.gif'
 import carousel3 from './images/carousel3.jpg'
 import carousel from './images/carousel.jpg'
